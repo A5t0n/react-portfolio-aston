@@ -95,4 +95,33 @@
             }
         }
     }
+
+    ul{
+        position: absolute;
+        bottom: 20px;
+        width: 60px;
+        display: block;
+        list-style: none;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+
+        li{
+            display: block;
+            text-align: center;
+        }
+
+        li{
+            a{
+                padding: 7px 0;
+                font-size: 15px;
+                line-height: 16px;
+                text-decoration: none;
+                
+                &:hover svg {
+                    color: #ffd700;
+                }
+            }
+        }
+    }
 }
