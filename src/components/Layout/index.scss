@@ -38,7 +38,8 @@
     animation-delay: 1s;
 }
 
-.about-page {
+.about-page,
+.contact-page {
     .text-zone {
         position: absolute;
         left: 10%;
@@ -62,6 +63,7 @@
             &::before{
                 content: '<h1>';
                 font-family: 'La Belle Aurore';
+                font-size: 25px;
                 position: absolute;
                 margin-top: -10px;
                 left: -10px;
@@ -72,7 +74,7 @@
             &::after{
                 content: '<h1/>';
                 font-family: 'La Belle Aurore';
-                font-size: 18px;
+                font-size: 25px;
                 position: absolute;
                 left: -30px;
                 bottom: -20px;
