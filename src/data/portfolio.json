@@ -1,0 +1,10 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/one.png",
+            "title": "GGWP",
+            "description": "HTML, CSS, JS",
+            "url": "https://github.com/A5t0n/bug-smasher-game"
+        }
+    ]
+}
