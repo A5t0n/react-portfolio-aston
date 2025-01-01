@@ -29,6 +29,14 @@ const Portfolio = () => {
                                return(
                                 <div className="image-box" key={idx}>
                                     <img className="portfolio-image" src={port.cover} alt="portfolio"/>
+                                    <div className="content">
+                                        <p className="title">{port.title}</p>
+                                        <p className="description">{port.description}</p>
+                                        <button className="btn"
+                                        onClick={()=>window.open(port.url)}>
+                                            View
+                                            </button>
+                                    </div>
                                 </div>
                                ) 
                             })
