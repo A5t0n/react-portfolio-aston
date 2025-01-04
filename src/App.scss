@@ -32,3 +32,13 @@ input,textarea{
   height: 50px;
   animation: fadeOut 1s 1s forwards;
 }
+
+@media screen and (max-width: 1200px){
+  .loader-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    bottom: 50%;
+  }
+}

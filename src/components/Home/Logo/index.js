@@ -21,7 +21,7 @@ const Logo = () => {
       })
       gsap.fromTo(outlineLogoRef.current, 
         { strokeDasharray: "0 100%" }, 
-        { strokeDasharray: "100% 0", duration: 5, delay: 2 }
+        { strokeDasharray: "100% 0", duration: 4, delay: 3 }
       )
       
       /*.from(outlineLogoRef.current, {
