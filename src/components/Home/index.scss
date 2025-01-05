@@ -44,7 +44,7 @@
             z-index: 1;
             width: 120px;
             margin:0;
-            margin-right: -35px;
+            margin-right: -41px;
             margin-left: -20px;
             padding: 0;
             opacity: 0;
@@ -53,6 +53,7 @@
             vertical-align: middle;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
+            pointer-events: none;
         }
     }
 
