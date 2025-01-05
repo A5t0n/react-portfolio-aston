@@ -1,5 +1,5 @@
 .nav-bar {
-    background: #181818;
+    background: #ff32fd;
     width: 60px;
     height: 100vh;
     position: absolute;
@@ -47,7 +47,7 @@
             }
 
             &:hover{
-                color: #ffd700;
+                color: #000000;
 
                 svg{
                     opacity: 0;
@@ -69,6 +69,7 @@
                 text-align: center;
                 opacity: 0;
                 transition: all 0.3s ease-out;
+                font: bold, Helvetica;
             }
 
             &:first-child{
@@ -99,7 +100,7 @@
 
         a.active {
             svg{
-                color: #ffd700;
+                color: #000000;
             }
         }
     }
@@ -127,7 +128,7 @@
                 text-decoration: none;
                 
                 &:hover svg {
-                    color: #ffd700;
+                    color: #000000;
                 }
             }
         }
