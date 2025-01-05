@@ -9,13 +9,13 @@
         max-height: 90%;
 
     }
-
     h1{
         color: #fff;
         font-size: 53px;
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
+        z-index: 2;
 
         &::before{
             content: '<h1>';
@@ -41,14 +41,15 @@
         }
 
         img{
+            z-index: 1;
             width: 120px;
             margin:0;
-            margin-right: -39px;
+            margin-right: -35px;
             margin-left: -20px;
             padding: 0;
             opacity: 0;
             height: 110px;
-            //display: inline-block;
+            display: inline-block;
             vertical-align: middle;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
