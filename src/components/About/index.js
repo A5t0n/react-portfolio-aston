@@ -38,7 +38,7 @@ const About = () => {
                     I'm a great team player, with great attention to details and a passion for
                     learning new technologies and constantly growing.
                 </p>
-                <p>If I need to define myself in one sentence that would be a family person,
+                <p>If I need to define myself in one sentence that would be a family person
                     ,A sports enthusiast, a tech geek and a passionate developer.
                 </p>
             </div>
