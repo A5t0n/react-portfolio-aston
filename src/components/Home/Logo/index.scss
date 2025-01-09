@@ -1,9 +1,10 @@
  .card {
-    overflow: visible;
+    //overflow: hidden;
     position: relative;
-    width: 190px;
+    width: 250px;
     height: 254px;
-    background: #fff;
+    padding: 50px;
+    background: #ff32fd;
     box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
 }
   
@@ -16,7 +17,7 @@
     width: 100%;
     height: 100%;
     border-radius: 4px;
-    background: #fff;
+    background: #ff32fd;
     transition: 0.5s;
     z-index: -99;
 }
@@ -25,10 +26,12 @@
     position: absolute;
     left: -10px;
     right: 0;
-    bottom: 5px;
+    bottom: 10px;
     height: 60px;
     text-align: center;
     text-transform: uppercase;
+    opacity: 0;
+    z-index: 2;
 }
   
   /*Image*/
@@ -51,19 +54,20 @@
     left: 0;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
   
   /*Text*/
 .title {
     font-weight: 600;
     font-size: 20px;
-    color: #777;
+    color: #000000;
 }
   
 .caption {
     font-weight: 500;
     font-size: 16px;
-    color: #4158D0;
+    color: #000000;
     display: block;
     margin-top: 5px;
 }
@@ -75,8 +79,13 @@
 .card:hover:before {
     transform: rotate(20deg);
 }
+
+.card:hover .details{
+    opacity: 1;
+}
   
 .card:hover:after {
     transform: rotate(10deg);
     box-shadow: 0 2px 20px rgba(0, 0, 0, .2);
+    opacity: 1;
 }

@@ -1,14 +1,15 @@
 import './index.scss'
+import Image from '../../../assets/images/AstonImg.jpg'
 
 const Logo = () => {
    return(
-    <div class="card">
-        <div class="imgbox">
-            <div class="img"></div>
+    <div className="card">
+        <div className="imgbox">
+            <img className="img" src={Image} alt="developer"></img>
         </div>
-        <div class="details">
-            <h2 class="title">John Doe</h2>
-            <span class="caption">Developer</span>
+        <div className="details">
+            <span className="title">Aston Varghese</span>
+            <span className="caption">Developer</span>
         </div>
     </div>
    ); 
