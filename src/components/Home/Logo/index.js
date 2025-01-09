@@ -2,13 +2,13 @@ import './index.scss'
 
 const Logo = () => {
    return(
-    <div class="card">
-        <div class="imgbox">
-            <div class="img"></div>
+    <div className="card">
+        <div className="imgbox">
+            <div className="img"></div>
         </div>
-        <div class="details">
-            <h2 class="title">John Doe</h2>
-            <span class="caption">Developer</span>
+        <div className="details">
+            <h2 className="title">John Doe</h2>
+            <span className="caption">Developer</span>
         </div>
     </div>
    ); 
