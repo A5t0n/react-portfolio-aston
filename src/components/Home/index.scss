@@ -94,9 +94,13 @@
         position: relative;
         left: 5%;
         top: 30%;
+        bottom: 30%;
         z-index: -1;
-        animation: backInRight 1s 1.2s;
-        animation-fill-mode: forwards;
+        transition: none;
+        animation: none;
+        //animation: fadeIn 1s 2s;
+        //animation-fill-mode: forwards;
+
     }
 }
 
