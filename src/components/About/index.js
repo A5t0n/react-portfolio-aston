@@ -30,16 +30,20 @@ const About = () => {
                         idx={15}   
                     />
                 </h1>
-                <p> I'm very ambitious front-end developer looking for a role in
-                    establshed IT Company with the opportunity to work with latest technologies
+                <p> 
+                    I am an ambitious front-end developer 
+                    seeking a role in an established tech company 
+                    where I can work with the latest technologies 
                     on challenging and diverse projects.
                 </p>
                 <p>
-                    I'm a great team player, with great attention to details and a passion for
-                    learning new technologies and constantly growing.
+                    As a detail-oriented team player, I am passionate about learning new technologies 
+                    and committed to continuous growth in my field.
                 </p>
-                <p>If I need to define myself in one sentence that would be a family person
-                    ,A sports enthusiast, a tech geek and a passionate developer.
+                <p>
+                    If I were to describe myself in one sentence, 
+                    I would say I am a dedicated family person, a sports enthusiast, 
+                    a tech geek, and a passionate developer.
                 </p>
             </div>
 

@@ -17,6 +17,8 @@
         gap: 15px;
         flex-wrap: wrap;
         padding-bottom: 100px;
+        justify-content:center;
+        align-items: center;
     }
 
     .image-box{
@@ -26,6 +28,7 @@
         overflow: hidden;
         border-radius: 10px;
         max-width: calc(25% - 10px);
+        border: 5px solid #ff32fd;
 
         .portfolio-image{
             position: absolute;
@@ -68,7 +71,7 @@
             padding: 0 23px;
             height: 40px;
             line-height: 34px;
-            border: 2px solid #ffd700;
+            border: 2px solid #000000;
             border-radius: 4px;
             font-size: 14px;
             color: #fff;
@@ -81,12 +84,12 @@
 
         .btn:hover{
             transform: translateY(-3px);
-            background: #ffd700;
+            background: #000000;
         }
 
         &:after{
             content: "";
-            background: linear-gradient(100deg, #ffd700, #000);
+            background: linear-gradient(100deg, #ff32fd, #000);
             position: absolute;
             left: 0;
             right: 0;
