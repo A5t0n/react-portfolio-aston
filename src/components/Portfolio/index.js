@@ -7,6 +7,10 @@ import portfolioData from "../../data/portfolio.json"
 
 const Portfolio = () => {
 
+    useEffect(() => {
+        document.title = "Portfolio";
+      }, []);
+
     const [letterClass, setLetterClass] = useState('text-animate')
         console.log(portfolioData);
 

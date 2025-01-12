@@ -8,6 +8,11 @@ import Loader from 'react-loaders';
 import ALogoTitle from '../../assets/images/ALogo.png';
 
 const Home = () => {
+
+    useEffect(() => {
+        document.title = "Aston's Portfolio";
+      }, []);
+
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['s','t','o','n',',']
     const jobArray = ['A',' ','W','e','b',' ','D','e','v','e','l','o','p','e','r']
