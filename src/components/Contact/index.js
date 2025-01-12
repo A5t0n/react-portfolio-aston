@@ -7,6 +7,10 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 
 const Contact = () => {
 
+    useEffect(() => {
+        document.title = "Contact";
+      }, []);
+
     const [letterClass, setLetterClass] = useState('text-animate')
     const refForm=useRef();
 

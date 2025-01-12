@@ -7,6 +7,10 @@ import Loader from 'react-loaders'
 
 const About = () => {
 
+    useEffect(() => {
+        document.title = "About";
+      }, []);
+
     const [letterClass, setLetterClass] = useState('text-animate')
     
     useEffect (()=> {
