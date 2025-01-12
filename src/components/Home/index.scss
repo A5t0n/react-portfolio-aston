@@ -92,7 +92,7 @@
         align-items: center;
         flex-shrink: 0;       
         position: relative;
-        left: 5%;
+        left: 10%;
         top: 30%;
         bottom: 30%;
         z-index: -1;
@@ -112,7 +112,7 @@
     .home-page{
         .text-zone{
             position: initial;
-            width: 100%;
+            width: 110%;
             transform: none;
             padding: 10px;
             box-sizing: border-box;
@@ -121,8 +121,9 @@
         .flat-button{
             float: none;
             display: block;
-            margin: 20px auto 0 auto;
+            margin: 10px auto 0 auto;
             width: 125px;
+
         }
 
         .LogoBox{
