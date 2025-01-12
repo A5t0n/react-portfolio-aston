@@ -9,7 +9,7 @@ import ALogoTitle from '../../assets/images/ALogo.png';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['s','t','o','n']
+    const nameArray = ['s','t','o','n',',']
     const jobArray = ['A',' ','W','e','b',' ','D','e','v','e','l','o','p','e','r']
 
     useEffect (()=> {
