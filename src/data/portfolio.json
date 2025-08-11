@@ -7,6 +7,12 @@
             "url": "https://github.com/A5t0n/react-portfolio-aston"
         },
         {
+            "cover": "/portfolio/1/three.png",
+            "title": "Cleaning Company Website",
+            "description": "A Website created for a company offering cleaning services",
+            "url": "https://www.spotlesstouchinc.ca"
+        },
+        {
             "cover": "/portfolio/1/one.png",
             "title": "Bug Smasher",
             "description": "A Simple Game using HTML, CSS and JS",
